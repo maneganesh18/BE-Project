@@ -1,0 +1,98 @@
+.form-wrap {
+  margin-top: 45vh;
+  max-width: 50vh;
+  width: 70vh;
+  max-height: 80vh;
+  height: 80vh;
+  background: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 8px 8px 50px #000;
+}
+
+.forget {
+  font-size: 2.5vh;
+  margin-bottom: 5vh;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 10px;
+  width: 100%;
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: blueviolet;
+}
+input[type="button"] {
+  background: #a4b15c;
+  border: 0;
+  cursor: pointer;
+  color: #3e3d3d;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+input[type="password"] {
+  margin-top: 3vh;
+}
+input[type="button"]:hover {
+  background: #348ceb;
+  transition: 0.6s;
+}
+
+::placeholder {
+  color: black;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.googlelog {
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  margin-left: 16vh;
+  margin-top: 4vh;
+  max-height: 8vh;
+  max-width: 9vh;
+}
+
+.googlelog:hover {
+  border: black solid;
+  border-radius: 3px;
+}
+
+/* img{
+     border-radius: 50%;
+     margin-top: -10rem;
+    size: 50%;
+    border: none;
+}
+  */
+
+/* .googlelog {
+  height: 10vh ;
+  border: none;
+  text-decoration: none;
+  padding-left: 17vh;
+} */
